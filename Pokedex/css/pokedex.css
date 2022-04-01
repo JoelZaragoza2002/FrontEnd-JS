@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+*{
+    font-family: 'Arimo';
+}
+
+body{
+    background-color: rgb(253, 166, 166);
+}
+
+
+input[type="text"] {
+    line-height: 5px;
+    width: 325px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: 'Arimo';
+    position: absolute;
+    transform: translate(40%, 500%);
+}
+.movimiento1{
+    position: absolute;
+    transform: translate(200%, 499%);
+}
+
+.movimiento2{
+    position: absolute;
+    transform: translate(300%, 90%);
+}
+
+.img-conten{
+    
+    position: absolute;
+    transform: translate(-180%, 50%);
+    
+}
+
+.mover3{
+    position: absolute;
+    transform: translate(1100%, 1800%);
+    font-size: 15px;
+}
+
+.mover4{
+    position: absolute;
+    transform: translate(180%, 3325%);
+    font-size: 15px;
+}
+
+.P-image{
+    width: 180px;
+    border-radius: 50%;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+.base{
+    background-image: url("./Imagen/base.png");
+    height: 900px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
